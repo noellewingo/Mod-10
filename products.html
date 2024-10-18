@@ -1,0 +1,137 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Coffee Selections</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Lora:wght@400;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            /* Default font */
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header h1,
+        header h2 {
+            color: white;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            font-family: 'Lora', serif;
+            /* Lora for headings */
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .product-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .product-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .product-item h3 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            font-family: 'Playfair Display', serif;
+            /* Use Playfair Display for product names */
+        }
+
+        .product-item p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .product-item button {
+            background-color: #2e5a87;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product-item button:hover {
+            background-color: #1f4b6d;
+        }
+
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <header>
+        <a href="https://uxuicurriculum.wixsite.com/gulproast" target="_blank" rel="noopener noreferrer">
+            <img src="https://assets.codepen.io/6306176/gulp-logo-dark.png" alt="Gulp Roast Logo" />
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://uxuicurriculum.wixsite.com/gulproast#contact" target="_blank"
+                        rel="noopener noreferrer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-item">
+            <img src="images/Screenshot 2024-10-18 at 10.13.48 AM.png" alt="Colombian Blended Espresso Beans">
+            <h3>Colombian Blended Espresso Beans</h3>
+            <p>$15.99</p>
+            <button>More details</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-item">
+            <img src="images/Screenshot 2024-10-18 at 10.13.59 AM.png" alt="Triple Blended Coffee Beans">
+            <h3>Triple Blended Coffee Beans</h3>
+            <p>$18.99</p>
+            <button>More details</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-item">
+            <img src="images/Screenshot 2024-10-18 at 10.14.24 AM.png" alt="Lightly Roasted Coffee Beans">
+            <h3>Lightly Roasted Coffee Beans</h3>
+            <p>$12.99</p>
+            <button>More details</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Coffee Co. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>

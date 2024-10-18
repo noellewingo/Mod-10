@@ -1,0 +1,94 @@
+/* Apply border-box model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    /* Use border-box model for all elements */
+}
+
+/* Header styles */
+header {
+    background: #082B59;
+    /* Dark blue header */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 60px;
+    /* Set logo height */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+    ;
+    /* Space between navigation items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #D98555;
+    /* Peach color for links */
+    font-weight: bold;
+}
+
+/* Main section styles */
+main {
+    padding: 2rem;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Product styles */
+.product {
+    display: flex;
+    flex-direction: column;
+    /* Stack image and text vertically */
+    align-items: center;
+    /* Center align items */
+    margin: 1rem;
+}
+
+/* Footer styles */
+footer {
+    background: #082B59;
+    /* Dark blue footer */
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px) {
+    header nav ul {
+        justify-content: center;
+        /* Center navigation on larger screens */
+    }
+
+    .product {
+        flex-direction: row;
+        /* Change layout to row for larger screens */
+        justify-content: space-between;
+        width: 80%;
+        margin: 1rem auto;
+        /* Center products */
+    }
+
+    .product img {
+        width: 150px;
+        /* Smaller image width on larger screens */
+        margin-right: 1rem;
+        /* Add space between image and text */
+    }
+}

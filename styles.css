@@ -1,0 +1,115 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+    /* Light background */
+    color: #131D26;
+    /* Dark text */
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #082B59;
+    /* Dark blue for header */
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px;
+    /* Adjust logo size */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav a {
+    color: #D98555;
+    /* Peach color for links */
+    text-decoration: none;
+    font-weight: 700;
+    /* Bold for links */
+}
+
+/* Link Hover Effect */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+/* About Section */
+#about h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #082B59;
+    /* Dark blue for headings */
+}
+
+/* Contact Section */
+#contact h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #131D26;
+    /* Dark text for subheadings */
+}
+
+button {
+    background-color: #D98555;
+    /* Peach */
+    color: #F2F2F2;
+    /* Light text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #59331D;
+    /* Coffee color */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #082B59;
+    /* Dark blue for footer */
+    color: #F2F2F2;
+    /* Light text */
+}
+
+/* Footer Links */
+footer a {
+    color: #D98555;
+    /* Peach for footer links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+
+
+
+}
